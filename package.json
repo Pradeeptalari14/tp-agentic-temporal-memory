@@ -1,0 +1,12 @@
+{
+  "name": "tp-agentic-temporal-memory",
+  "version": "1.0.0",
+  "description": "Stateful agentic temporal memory system with dual Neo4j knowledge graph and Qdrant vector store and Ebbinghaus forgetting decay",
+  "main": "session_context_injector.ts",
+  "scripts": {
+    "test": "bash scripts/validate.sh"
+  },
+  "keywords": ["agent-memory", "neo4j", "qdrant", "temporal-graph", "forgetting-curve", "sre"],
+  "author": "Talari Pradeep <talaripradeep14@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: agentic-memory-stack
+  namespace: agent-platform
+spec:
+  serviceName: memory-internal
+  replicas: 1
+  selector:
+    matchLabels:
+      app: agentic-memory
+  template:
+    metadata:
+      labels:
+        app: agentic-memory
+    spec:
+      containers:
+        - name: qdrant
+          image: qdrant/qdrant:v1.9.2
+          ports:
+            - containerPort: 6333
+              name: http
+          resources:
+            limits:
+              memory: 8Gi
+              cpu: "2"
+        - name: neo4j
+          image: neo4j:5.19-community
+          ports:
+            - containerPort: 7687
+              name: bolt
+          resources:
+            limits:
+              memory: 8Gi
+              cpu: "2"
