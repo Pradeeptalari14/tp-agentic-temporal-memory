@@ -1,3 +1,6 @@
+[![Ecosystem](https://img.shields.io/badge/Portfolio%20Ecosystem-341%20Studios-6366f1.svg)](https://pradeeptalari.me/projects/)
+[![Architecture DAG](https://img.shields.io/badge/Architecture-DAG%20%26%20Course-10b981.svg)](https://pradeeptalari.me/tools/repo-learning/)
+
 # Agentic Temporal Memory & Episodic Graph Studio
 
 [![CI SRE Validation](https://github.com/Pradeeptalari14/tp-agentic-temporal-memory/actions/workflows/sre-validation.yml/badge.svg)](https://github.com/Pradeeptalari14/tp-agentic-temporal-memory/actions)
@@ -20,3 +23,6 @@ git clone https://github.com/Pradeeptalari14/tp-agentic-temporal-memory.git
 cd tp-agentic-temporal-memory
 bash scripts/validate.sh
 ```
+
+---
+*Synchronized with [Agentic Temporal Memory & Episodic Graph Studio Studio](https://pradeeptalari.me/tools/agentic-temporal-memory/) & [Repository Learning DAG](https://pradeeptalari.me/tools/repo-learning/) — [Talari Pradeep Portfolio](https://pradeeptalari.me)*
